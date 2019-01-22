@@ -40,7 +40,7 @@ comments: true
 
 요즘은 HTML 태그가 뭔지만 알면 블로그에서 다 사용할 수 있습니다. HTML/외부컨텐츠 같은 버튼을 따로 누르거나 작성 중인 문서 내에 직접 HTML 코드를 입력이 가능하거나 각각 방법은 달라서 직접 확인 해야합니다. 기술 블로그를 작성하게 되면 코드 내용이나 커맨드를 보여줘야 하는 일이 많은데, 개인적으로 마크다운을 통해 좀 있어보이게 작성 할 수 있습니다. 
 
-개인적으로는 최근 제일 깃허브 페이지가 제일 기술 블로그로는 핫하지 않나 생각이 듭니다. 깃허브 페이지는 Team Project에서 자주 사용되는 [Slack](https://slack.com/), [Trello](https://trello.com/) 처럼 마크다운을 제공하여 사용자에게 강한 코드 분별력을 제공해줍니다. 그리고 [Github에서 Jekyll 로 검색](https://github.com/topics/jekyll-theme)해보면 이미 기존에 작성된 테마들이 있어서 쉽게 적용이 가능합니다. 
+개인적으로는 깃허브 페이지가 제일 기술 블로그로는 핫하지 않나 생각이 듭니다. 깃허브 페이지는 Team Project에서 자주 사용되는 [Slack](https://slack.com/), [Trello](https://trello.com/) 처럼 마크다운을 제공하여 사용자에게 강한 코드 분별력을 제공해줍니다. 그리고 [Github에서 Jekyll 로 검색](https://github.com/topics/jekyll-theme)해보면 이미 기존에 작성된 테마들이 있어서 쉽게 적용이 가능합니다. 
 
 >[daattali/beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) 적용하기
   1. fork 받기
