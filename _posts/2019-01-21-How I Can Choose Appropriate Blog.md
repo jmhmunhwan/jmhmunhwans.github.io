@@ -7,6 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [Blog, 블로그]
 comments: true
 ---
+
 <header>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -16,6 +17,7 @@ comments: true
   });
 </script>
 </header>
+
 ![Blog](https://t1.daumcdn.net/cfile/tistory/22498D3353DE517715)
 
 개발에 대해 올릴 블로그를 도대체 뭐로 쓸까 한참 찾아보다 이에 대해 정리하는 것도 좋을 듯 하여 이 포스트를 작성합니다.
