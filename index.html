@@ -6,7 +6,7 @@ use-site-title: true
 bigimg: http://webimage.10x10.co.kr/play2016/2017/20/20170728103736_0k366.jpg
 ---
 
-<header>
+<header class="site-category">
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<script>
 	  (adsbygoogle = window.adsbygoogle || []).push({
@@ -14,8 +14,20 @@ bigimg: http://webimage.10x10.co.kr/play2016/2017/20/20170728103736_0k366.jpg
 	    enable_page_level_ads: true
 	  });
 	</script>
+  <ul>
+    
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "category" %}
+          <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
+          href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    
+</ul>
 </header>
-
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
